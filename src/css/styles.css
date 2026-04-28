@@ -1,0 +1,81 @@
+/* DESIGN PROFISSIONAL - ALTO CONTRASTE */
+body {
+    background-color: #000000;
+    color: #ffffff;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.main-card {
+    width: 90%;
+    max-width: 650px;
+    background-color: #0a0a0a;
+    border: 3px solid #1a73e8;
+    border-radius: 24px;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(26, 115, 232, 0.4);
+}
+
+h1 {
+    color: #4dadff;
+    font-size: 32pt;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.subtitle {
+    color: #51cf66;
+    font-size: 18pt;
+    margin-bottom: 30px;
+    font-weight: bold;
+    display: block;
+}
+
+.button-list {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.nav-button {
+    background-color: #111111;
+    color: #ffffff;
+    border: 2px solid #4dadff;
+    padding: 18px;
+    font-size: 14pt;
+    font-weight: 800;
+    text-decoration: none;
+    border-radius: 12px;
+    display: block;
+    transition: 0.3s;
+    text-transform: uppercase;
+}
+
+.nav-button:hover {
+    background-color: #4dadff;
+    color: #000000;
+    transform: scale(1.02);
+}
+
+.btn-literature {
+    border-color: #ff9800 !important;
+    color: #ff9800 !important;
+}
+
+.btn-literature:hover {
+    background-color: #ff9800 !important;
+    color: #002d5e !important;
+}
+
+.footer-text {
+    margin-top: 30px;
+    font-size: 11pt;
+    color: #666;
+    border-top: 1px solid #222;
+    padding-top: 15px;
+}
